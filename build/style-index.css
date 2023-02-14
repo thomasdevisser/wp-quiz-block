@@ -1,0 +1,73 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-quiz {
+  background-color: #eee;
+  color: #222;
+  padding: 16px;
+  position: relative;
+}
+.wp-block-create-block-quiz .success {
+  background-color: #0f0;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.2s ease;
+  pointer-events: none;
+}
+.wp-block-create-block-quiz .success.show {
+  opacity: 1;
+}
+.wp-block-create-block-quiz .failure {
+  background-color: #f00;
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+.wp-block-create-block-quiz .failure.show {
+  opacity: 1;
+}
+.wp-block-create-block-quiz p {
+  margin-block: 0 1rem;
+}
+.wp-block-create-block-quiz .answers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.wp-block-create-block-quiz .answers > button {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wp-block-create-block-quiz .answer {
+  align-items: center;
+  display: flex;
+}
+.wp-block-create-block-quiz .answer p {
+  flex-grow: 1;
+  margin: 0;
+}
+.wp-block-create-block-quiz .answer .answer-text {
+  padding: 6px 12px;
+  width: 100%;
+}
+.wp-block-create-block-quiz .question {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

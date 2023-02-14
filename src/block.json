@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/quiz",
+	"version": "0.1.0",
+	"title": "Quiz",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"question": {
+			"type": "string"
+		},
+		"answers": {
+			"type": "array",
+			"default": [
+				{
+					"answer": "",
+					"correct": false
+				}
+			]
+		}
+	},
+	"textdomain": "quiz",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
